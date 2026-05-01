@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<html>
+  <body>
+    <h1>Registration with <img src="g.png"  width="30"></h1>
+    <form>
+      <label for="email">email</label>
+      <input type="email" id="email" placeholder="Enter your email" required name="email">
+      <br><br>
+      <label for="password"> password </label>
+      <input type="password" id="password" placeholder="Enter your password" required name="password">
+      <br><br>
+      <hr>
+      <h2><label for="It_is_better_not_to_answer">type person</label></h2>
+      <br>
+      <input type="radio" name="type_person" id="male" value="male" required>
+      <label for="male">male</label>
+      <br><br>
+      <input type="radio" name="type_person" id="female" value="female" required>
+      <label for="female" >female</label>
+      <br><br>
+      <input type="radio" name="type_person" id="It_is_better_not_to_answer" value="It_is_better not_to_answer" required>
+      <label for="It_is_etter_not_to_answer" >It is better not to answer</label>
+      <br><br>
+      <hr>
+      <h2><mark><label for="hired_with_us">Why do you want to be hired with us?</label></mark></h2>
+      <br>
+      <textarea id="hired_with_us" name="hired_with_us?" cols="40" rows="10" placeholder="Why do you want to be hired with us?..." required></textarea>
+      <br><br>
+       <hr>
+      <h2><mark><label for="Say_something_about_yourself">Say something about yourself</label></mark></h2>
+      <br>
+      <textarea id="Say_something_about_yourself" name="Say_something_about_yourself" cols="40" rows="10" placeholder="Say something about yourself..." required></textarea>
+      <br><br>
+      <hr>
+      <h2><label for="file">Download the lady's profile</label></h2>
+      <br>
+      <label for="file">PDF</label>
+      <br> <br>
+      <input type="file" id="file" accept=".pdf" required>
+      <br><br>
+      <hr>
+      <h2><label for="number_phone">Enter the phone number</label></h2>
+      <br>
+      <label for="number_phone">number phone</label>
+      <br><br>
+      <select name="number_C">
+        <option value="+966">+966</option>
+        <option value="+971">+971</option>
+        <option value="+965">+965</option>
+        <option value="+968">+968</option>
+        <option value="+974">+974</option>
+        <option value="+20">+20</option>
+        <option value="+964">+964</option>
+        <option value="+962">+962</option>
+        <option value="+963">+963</option>
+        <option value="+970">+970</option>
+        <option value="+249">+249</option>
+        <option value="+961">+961</option>
+        <option value="+967">+967</option>
+        <option value="+218">+218</option>
+        <option value="+222">+222</option>
+        <option value="+212">+212</option>
+      </select>
+      <input type="number" required name="number_phone" id="number_phone">
+      <br><br>
+      <hr>
+      <h2><label for="country_selection">Choose your country</label></h2>
+      <br>
+      <label for="country_selection">Country</label>
+      <select name="country_selection" id="country_selection">
+        <option value="Algeria">Algeria</option>
+        <option value="Bahrain">Bahrain</option>
+        <option value="Comoros">Comoros</option>
+        <option value="Djibouti">Djibouti</option>
+        <option value="Egypt">Egypt</option>
+        <option value="Iraq">Iraq</option>
+        <option value="Jordan">Jordan</option>
+        <option value="Kuwait">Kuwait</option>
+        <option value="Lebanon">Lebanon</option>
+        <option value="Libya">Libya</option>
+        <option value="Mauritania">Mauritania</option>
+        <option value="Morocco">Morocco</option>
+        <option value="Oman">Oman</option>
+        <option value="Palestine">Palestine</option>
+        <option value="Qatar">Qatar</option>
+        <option value="Saudi Arabia">Saudi Arabia</option>
+        <option value="Somalia">Somalia</option>
+        <option value="Sudan">Sudan</option>
+        <option value="Syria">Syria</option>
+        <option value="Tunisia">Tunisia</option>
+        <option value="United Arab Emirates">United Arab Emirates</option>
+        <option value="Yemen">Yemen</option>
+
+      </select>
+      
+      <br><br>
+      <hr>
+      <br>
+      <label for="age">age</label>
+      <input type="number" id="age"
+      name="age" placeholder="Enter your age " required>
+      <br><br><br>
+      <label for="Social_status">Social status</label>
+      <input type="text" id="Social_status"
+      name="Social_status" placeholder="Enter your Social status " required>
+      <br><br><br>
+      <hr>
+      <p><mark>Thank you</mark> for your <u>time</u></p>
+      <br><br><br>
+      <button>SEND</button>
+    </form>
+  </body>
+</html>
